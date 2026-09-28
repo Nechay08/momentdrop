@@ -1,16 +1,244 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>MomentDrop Publisher</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MomentDrop Publisher</title>
+    <meta name="description" content="MomentDrop Publisher is a desktop application for preparing and publishing user-selected video content to supported social media platforms.">
+
+    <link rel="icon" type="image/png" href="momentdrop-icon.png">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080808;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            max-width: 1100px;
+            margin: auto;
+            padding: 28px 30px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        header img {
+            width: 54px;
+            height: 54px;
+            border-radius: 14px;
+        }
+
+        header strong {
+            font-size: 20px;
+        }
+
+        .hero {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 30px 120px;
+        }
+
+        .hero img {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: clamp(44px, 7vw, 78px);
+            line-height: 1.05;
+            margin: 0 0 25px;
+            max-width: 850px;
+        }
+
+        .orange {
+            color: #ff6a00;
+        }
+
+        .hero p {
+            max-width: 720px;
+            font-size: 20px;
+            color: #bdbdbd;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 30px;
+            border-top: 1px solid #222;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 18px;
+            padding: 28px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #ff6a00;
+        }
+
+        .card p, section p {
+            color: #aaa;
+        }
+
+        footer {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 30px;
+            border-top: 1px solid #222;
+            color: #888;
+        }
+
+        footer a {
+            color: #ffffff;
+            margin-right: 25px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #ff6a00;
+        }
+    </style>
 </head>
+
 <body>
-<h1>MomentDrop Publisher</h1>
-<p>MomentDrop Publisher helps users prepare and publish their own video content to supported social media platforms.</p>
 
-<p><a href="terms.html">Terms of Service</a></p>
-<p><a href="privacy.html">Privacy Policy</a></p>
+<header>
+    <img src="momentdrop-icon.png" alt="MomentDrop Publisher logo">
+    <strong>MomentDrop Publisher</strong>
+</header>
 
-<p>Contact: clips.artjom.1@gmail.com</p>
+<main>
+
+    <div class="hero">
+        <img src="momentdrop-icon.png" alt="MomentDrop Publisher app icon">
+
+        <h1>
+            Create. Prepare.<br>
+            <span class="orange">Publish.</span>
+        </h1>
+
+        <p>
+            MomentDrop Publisher is a desktop application that helps users
+            prepare and publish user-selected video content to supported
+            social media platforms from one streamlined workflow.
+        </p>
+    </div>
+
+    <section>
+        <h2>What is MomentDrop?</h2>
+
+        <p>
+            MomentDrop Publisher provides tools for preparing video posts,
+            generating and editing publishing metadata, selecting connected
+            social media accounts, and publishing content chosen by the user.
+        </p>
+    </section>
+
+    <section>
+        <h2>How it works</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>1. Select</h3>
+                <p>
+                    The user selects a video from their computer that they
+                    want to prepare for publishing.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>2. Prepare</h3>
+                <p>
+                    MomentDrop helps prepare titles, descriptions, hashtags
+                    and other publishing metadata. The user can review and
+                    edit the information before publishing.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>3. Choose</h3>
+                <p>
+                    The user chooses which connected social media accounts
+                    should receive the video.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>4. Publish</h3>
+                <p>
+                    Content is published only after the user explicitly
+                    initiates the publishing action.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Supported platforms</h2>
+
+        <p>
+            MomentDrop Publisher is designed to work with supported social
+            media publishing integrations, including TikTok, YouTube and
+            Instagram where the required platform permissions are available.
+        </p>
+    </section>
+
+    <section>
+        <h2>User control</h2>
+
+        <p>
+            Users maintain control over the videos they select, the metadata
+            associated with their posts, the destination accounts and the
+            final publishing action.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+
+        <p>
+            Questions about MomentDrop Publisher can be sent to:
+            <strong style="color:white;">clips.artjom.1@gmail.com</strong>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </p>
+
+    <p>© 2026 MomentDrop Publisher</p>
+</footer>
+
 </body>
 </html>
